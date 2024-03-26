@@ -94,3 +94,44 @@ a {
         text-align: center; /* Center text within buttons on phones */
     }
 }
+
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.introducao{
+    background: #202020;
+    padding: 30px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 30px;
+    justify-items: end;
+   
+
+}
+
+.detalhe{
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.vermais{
+    background: #e21;
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    
+    
+
+}
