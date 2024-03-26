@@ -14,9 +14,9 @@ h1 {
 }
 
 hr{
-    color: #ffffff;
     width: 80%;
     text-align: center;
+    box-shadow: 5px 5px 10px rgba(214, 22, 22, 0.5);
     
 }
 
@@ -103,7 +103,7 @@ a {
 }
 
 .introducao{
-    background: #202020;
+    background: #000000;
     padding: 30px;
     text-align: right;
     position: relative;
@@ -111,6 +111,8 @@ a {
     align-content: center;
     gap: 30px;
     justify-items: end;
+    border: 2px solid #434343;
+    
    
 
 }
@@ -131,6 +133,34 @@ a {
     color: #ffffff;
     border-radius: 4px;
     text-transform: uppercase;
+    
+}
+
+.Subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    background: #434343;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+    
+}
+
+.vantagens{
+    align-content: center;
+    gap: 20px;
+    
+
+    
+    
+}
+
+.vantagens-item{
+    justify-items: end;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: 2px solid #434343;
+   
     
     
 
